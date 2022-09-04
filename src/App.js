@@ -44,10 +44,6 @@ export default function App() {
       <input type="number" onChange={takeNumber} />
       <button onClick={checkForLucky}>Check Now</button>
       <h2>{showMsg}</h2>
-      <footer>
-        <a href="https://github.com/Rajaneesh98">GitHub</a>
-        <a href="https://twitter.com/EgRajaneesh">Twitter</a>
-      </footer>
     </div>
   );
 }
