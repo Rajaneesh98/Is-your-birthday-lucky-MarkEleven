@@ -21,8 +21,8 @@ export default function App() {
   }
 
   function checkForLucky() {
-    if (date === "" || luckyNumber === "") {
-      updateMsg(" please give your details");
+    if (date === "" || luckyNumber === "" || luckyNumber < 0) {
+      updateMsg("Please give Valid Values");
     } else {
       for (var item of date) {
         sum = sum + parseInt(item);
